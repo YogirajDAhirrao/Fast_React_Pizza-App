@@ -1,0 +1,27 @@
+# Ignore environment variables
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Ignore node modules
+node_modules/
+
+# Ignore build files
+build/
+dist/
+
+# Ignore logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore IDE settings
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore specific files
+secret-config.json
+
